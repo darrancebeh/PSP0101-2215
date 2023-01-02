@@ -1,8 +1,8 @@
 n = int(input("Enter N: "))
 
-final = []; #printable variable
+final = [];
 for i in range(0,n):
-    b = []; #command storer | note that array will reset after every for loop iteration
+    b = [];
     a = input("Enter command: ");
     b += a.split(" ");
 
